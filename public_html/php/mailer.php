@@ -9,7 +9,7 @@
  **/
 
 // require all composer dependencies
-require_once(dirname(__DIR__, 4) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 5) . "/vendor/autoload.php");
 
 // require mail-config.php
 require_once("mail-config.php");
