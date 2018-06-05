@@ -41,7 +41,7 @@ $(document).ready(function(){
 		// error messages to display to the end user when rules above don't pass
 		messages: {
 			demoName: {
-				required: "Y U have no name?"
+				required: "Please enter your Name."
 			},
 			demoEmail: {
 				email: "Please enter a valid email address.",
@@ -49,7 +49,7 @@ $(document).ready(function(){
 			},
 			demoMessage: {
 				required: "Please enter a message.",
-				maxlength: "2000 characters max."
+				maxlength: "1500 characters max."
 			}
 		},
 
